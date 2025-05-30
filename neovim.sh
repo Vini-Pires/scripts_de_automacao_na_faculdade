@@ -10,6 +10,8 @@ if [[ ! -d $HOME/.local/share/fonts ]]; then
   mkdir $HOME/.local/share/fonts
 fi
 
+# TODO alterar zip para tar.gz
+unzip $O_HOME_CONFIG/compact/FiraCode.zip -d $HOME/.local/share/fonts
 cp $O_HOME_CONFIG/fonts -t $HOME/.local/share/fonts
 fc-cache -f
 
