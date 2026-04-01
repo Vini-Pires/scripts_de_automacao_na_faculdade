@@ -1,0 +1,16 @@
+# --- Navegação ---
+alias cls='clear'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias home='cd /media/$(whoami)/home'
+
+# --- Sistema ---
+alias _='sudo '
+
+# --- Git (Os essenciais, os outros o plugin 'git' já provê) ---
+alias g='git'
+alias gst='git status'
+alias gp='git push'
+alias gl='git pull'
+alias gca='git commit --verbose --all'

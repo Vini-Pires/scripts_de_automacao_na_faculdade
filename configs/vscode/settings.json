@@ -1,0 +1,97 @@
+{
+  // --------------------------------------------------------------- //
+
+  // VsCode Settings
+  "workbench.colorTheme": "SynthWave '84",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "onFocusChange",
+  "window.titleBarStyle": "custom",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.wordWrapColumn": 150,
+  "editor.minimap.autohide": "mouseover",
+  "editor.linkedEditing": true,
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "fira code",
+  "debug.console.closeOnEnd": true,
+  "window.confirmBeforeClose": "keyboardOnly",
+  "editor.guides.bracketPairs": true,
+  "redhat.telemetry.enabled": false,
+  "explorer.compactFolders": false,
+  // --------------------------------------------------------------- //
+
+  // C-Cpp Settings
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2 }",
+  "c-cpp-compile-run.c-flags": "-Wall -Wextra -g3 -lm",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  // --------------------------------------------------------------- //
+
+  // Live Server Settings
+  "liveServer.settings.donotShowInfoMsg": true,
+  // --------------------------------------------------------------- //
+
+  // Git Settings
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "gitlens.graph.layout": "editor",
+  "editor.wordWrap": "bounded",
+  "hediet.vscode-drawio.resizeImages": null,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.editor.empty.hint": "hidden",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.cs": "${capture}.designer.cs,${capture}.g.cs,${capture}.generated.cs,${capture}.run.json,${capture}.settings.json,${capture}.settings.*.json",
+    "*.csproj": "${capture}.csproj.user",
+    "*.json": "${capture}.Development.json",
+    "*.cshtml": "${capture}.cshtml.cs,${capture}.cshtml.css",
+    "*.razor": "${capture}.razor.cs,${capture}.razor.css",
+    "*.resx": "${capture}.Designer.cs",
+    "*.xaml": "${capture}.xaml.cs",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "/usr/bin/zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.initialHint": false,
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+
+	"github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "chat.tips.enabled": false,
+  // --------------------------------------------------------------- //
+}
