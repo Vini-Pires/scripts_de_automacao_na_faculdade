@@ -13,6 +13,6 @@ echo "Bem-vindo $_REGISTRO_ALUNO"
 . "$_PASTA_SCRIPTS/install_fonts.sh"
 . "$_PASTA_SCRIPTS/install_zsh.sh"
 
-echo
+echo "===================="
 echo "Instalação concluida"
-echo
+echo "===================="

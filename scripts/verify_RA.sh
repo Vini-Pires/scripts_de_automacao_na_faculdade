@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -d $_HOME_PESSOAL ] ; then
+if [ ! -d $_HOME_MEDIA ] ; then
   echo
   echo "==========================================="
   echo "Comando whoami não conseguiu coletar seu RA"
